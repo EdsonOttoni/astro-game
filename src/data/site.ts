@@ -1,8 +1,8 @@
 export const site = {
   name: "Saruê Arcano",
-  tagline: "Jogos indie feitos com cuidado.",
+  tagline: "Magias proibidas, café quente e jogos feitos com a alma.",
   description:
-    "Site oficial da Saruê Arcano — notícias, notas de atualização e nossos jogos.",
+    "O grimório do Saruê Arcano. Acompanhe o desenvolvimento de jogos indie, leia os diários de criação e encontre refúgio nas entrelinhas de nossos mundos.",
   url: "https://edsonottoni.github.io/astro-game",
   social: {
     twitter: "https://twitter.com/",
