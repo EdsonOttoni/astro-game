@@ -3,7 +3,7 @@ export const site = {
   tagline: "Magias proibidas, café quente e jogos feitos com a alma.",
   description:
     "O grimório do Saruê Arcano. Acompanhe o desenvolvimento de jogos indie, leia os diários de criação e encontre refúgio nas entrelinhas de nossos mundos.",
-  url: "https://edsonottoni.github.io/astro-game",
+  url: "https://saruearcano.com.br",
   social: {
     twitter: "https://twitter.com/",
     discord: "https://discord.gg/",

@@ -1,4 +1,4 @@
-/** Prefixa paths com o `base` do Astro (ex.: /astro-game/ no GitHub Pages). */
+/** Prefixa paths com o `base` do Astro (ex.: `/` no domínio customizado). */
 export function path(p: string = "/"): string {
   const raw = import.meta.env.BASE_URL;
   const base = raw.endsWith("/") ? raw : `${raw}/`;

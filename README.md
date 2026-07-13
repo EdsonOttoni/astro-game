@@ -25,12 +25,13 @@ npm run preview
 
 ## GitHub Pages
 
-O site está configurado para o repositório `astro-game`:
+O site usa o domínio customizado [saruearcano.com.br](https://saruearcano.com.br):
 
 - `site` / `base` em [`astro.config.mjs`](astro.config.mjs)
+- arquivo [`CNAME`](CNAME) na raiz (domínio para o GitHub Pages)
 - Deploy automático em [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)
 
-No GitHub: **Settings → Pages → Source: GitHub Actions**.
+No GitHub: **Settings → Pages → Source: GitHub Actions** e domínio customizado `saruearcano.com.br`.
 
 Após o push em `main`, o site fica em:
-https://edsonottoni.github.io/astro-game/
+https://saruearcano.com.br/
