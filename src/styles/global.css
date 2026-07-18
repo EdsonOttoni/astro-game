@@ -108,6 +108,41 @@
     font-weight: 600;
   }
 
+  .prose-studio img {
+    width: 100%;
+    border-radius: 0.5rem;
+    margin: 1.25rem 0 1.75rem;
+  }
+
+  .prose-studio blockquote {
+    margin: 1.25rem 0;
+    padding: 0.85rem 1rem;
+    border-left: 3px solid color-mix(in srgb, var(--color-arcane) 70%, transparent);
+    background: color-mix(in srgb, var(--color-night-lift) 80%, transparent);
+    color: var(--color-ink-muted);
+    border-radius: 0 0.375rem 0.375rem 0;
+  }
+
+  .prose-studio table {
+    width: 100%;
+    margin: 1rem 0 1.5rem;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    color: var(--color-ink-muted);
+  }
+
+  .prose-studio th,
+  .prose-studio td {
+    padding: 0.55rem 0.75rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--color-arcane) 20%, transparent);
+    text-align: left;
+  }
+
+  .prose-studio th {
+    color: var(--color-ink);
+    font-weight: 600;
+  }
+
   @keyframes fade-up {
     from {
       opacity: 0;

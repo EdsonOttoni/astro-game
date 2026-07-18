@@ -26,6 +26,7 @@ const games = defineCollection({
           steam: z.string().url().optional(),
           itch: z.string().url().optional(),
           website: z.string().url().optional(),
+          download: z.string().url().optional(),
         })
         .default({}),
       featured: z.boolean().default(false),
